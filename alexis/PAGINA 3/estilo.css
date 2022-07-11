@@ -1,0 +1,66 @@
+body{
+	background-image: url("https://www.psicoactiva.com/wp-content/uploads/2013/06/informatica-psicologia-mente.jpg");
+}
+.header{
+	background: black;
+	width: 100%;
+}
+	#menu ul{
+list-style: none;
+margin:0;
+padding:0;
+}
+#menu #item{
+	float: left; 
+}
+#menu #item a{
+	background:rgba(112, 128, 144);
+	color: rgba(0, 0, 0);
+	padding: 12px 55px;
+	display: block;
+	font-family: Arial, Helvetica, san ;
+	font-size: 16px;
+	text-decoration: none;
+	opacity: 0.6;
+	border: 5px;
+
+}
+#menu #desple{
+	display: none;
+	position: absolute;
+	min-width: 170px;
+}
+#menu #item:hover #desple{
+	display:block;
+}
+#menu #despleg{
+	display: none;
+	position: absolute;
+	min-width: 10px;
+
+}
+#menu #item:hover #despleg{
+	display: block;
+}
+footer{
+
+	background-color: rgba(0,0,0,0.6);
+	margin-top: 41%;
+	width: 100%;
+	padding: 2px 0px;
+	position: relative;  
+
+}
+.contenedor{
+	background-color: black;
+	margin-top: 10%;
+	opacity: 0.8;
+	width: 100%;
+	
+}
+h2{
+	color: yellow;
+}
+h3{
+	color: yellow;
+}

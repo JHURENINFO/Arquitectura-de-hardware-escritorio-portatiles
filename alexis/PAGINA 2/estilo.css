@@ -1,0 +1,70 @@
+@charset "utf-8";
+body{
+	background-image: url("https://img.freepik.com/vector-gratis/colorida-textura-acuarela_1048-11773.jpg?w=2000")
+	background-repeat:no-repeat;
+	background-size:cover;
+	width: 1024px;
+	margin-left: 12.5%;
+	opacity: 10;
+}
+#menu ul{
+list-style: none;
+margin:0;
+padding:0;
+}
+#menu #item{
+	float: left; 
+}
+#menu #item a{
+	background:rgba(112, 128, 144);
+	color: rgba(0, 0, 0);
+	padding: 12px 55px;
+	display: block;
+	font-family: Arial, Helvetica, san ;
+	font-size: 16px;
+	text-decoration: none;
+	opacity: 0.6;
+	border: 5px;
+
+}
+#menu #desple{
+	display: none;
+	position: absolute;
+	min-width: 170px;
+}
+#menu #item:hover #desple{
+	display:block;
+}
+#menu #despleg{
+	display: none;
+	position: absolute;
+	min-width: 10px;
+
+}
+#menu #item:hover #despleg{
+	display: block;
+}
+.carousel-widget .flickity-slider .carousel-cell {
+width: 100%;
+text-align: center;
+}
+.carousel-widget .flickity-slider .carousel-cell img {
+max-width: 100%;
+}
+#p{
+	float: right;
+}
+.foot{
+	background-color: rgba(0,0,0,0.6);
+	margin-top: 10%;
+	width: 100%;
+	padding: 2px 0px;
+	position: relative;  
+}
+.foot_p{
+	color: #fff;
+	text-align: center;
+}
+table{
+	opacity: 0.9;
+}
